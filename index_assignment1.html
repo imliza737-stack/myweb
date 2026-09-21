@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #bf9292;
+            margin: 0;
+        }
+        header {
+            background-color: #a87e7e;
+            color: rgb(100, 20, 20);
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #555;
+            text-align: center;
+            padding: 12px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #666;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Student Management System</h1>
+   
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Students</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+<div class="container">
+    <h2>Add Student</h2>
+    <form>
+        <label>Student ID</label>
+        <input type="text" placeholder="Enter Student ID">
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter Full Name">
+        <label>Gender</label>
+        <select>
+            <option>Female</option>
+            <option>Female</option>
+            <option>Male</option>
+        </select>
+        <label>Age</label>
+        <input type="number" placeholder="Enter Age">
+        <label>Score</label>
+        <input type="number" placeholder="Enter Score">
+        <button type="submit">Add Student</button>
+    </form>
+    <h2>Student List</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Full Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+            <th>Score</th>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Liza</td>
+            <td>Male</td>
+            <td>20</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Sokleng</td>
+            <td>Female</td>
+            <td>19</td>
+            <td>90</td>
+        </tr>
+           <tr>
+            <td>003</td>
+            <td>Piseth</td>
+            <td>Female</td>
+            <td>19</td>
+            <td>90</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
